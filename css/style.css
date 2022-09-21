@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Caveat+Brush&display=swap');* {
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Caveat+Brush&family=Kaushan+Script&display=swap');
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -14,20 +15,16 @@ body {
     font-weight: 700;
     background-image: url('../img/coffee-shop.jpg');
     background-position: top 30% center;
+    background-repeat: repeat-y;
     background-size: cover;
-}
-.main-container {
-    border: 10px solid #ff7f50;
-    border-radius: 20px;
-    padding: 2rem;
-    box-shadow: 2px 2px 5px 10px #faebd7;
+    object-fit: cover;
 }
 .coffee-shop-heading {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 .coffee-shop-heading > h1{
-    font-family: fantasy;
+    font-family: 'Kaushan Script', cursive;
     color: #faebd7;
 }
 .name {

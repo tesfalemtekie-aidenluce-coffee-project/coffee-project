@@ -59,15 +59,3 @@ Here is an example demonstrating the above functionality. Your application might
 look different, but should have the same features.
 
 ![Cofee Project Demo](demo.gif)
-
-// e.preventDefault(); // don't submit the form, we just want to update the data
-let selectedRoast = roastSelection.value;
-//Got the search bar to work
-let searchedName = nameSearch.value;        
-let filteredCoffees = [];
-coffees.forEach(function(coffee) {
-if (coffee.roast === selectedRoast || coffee.name === searchedName) {
-filteredCoffees.push(coffee);
-}
-});
-div.innerHTML = renderCoffees(filteredCoffees);
